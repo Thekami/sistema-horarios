@@ -1,0 +1,146 @@
+@import "mixins.styl"
+span
+	user-select(none)
+//body
+//	padding-top 28px
+#information
+#info-variada
+	width 100%
+#materias
+#agregar-lugar
+	width 45%
+	max-width 49.84%
+	float left
+	//border 1px solid black
+#information
+	height 40px
+//	top 0
+//	left 0
+//	position fixed
+//	width 100%
+//	background-color rgba(0,0,0,0.8)
+//	color #fff
+//	padding 15px 20px
+#guardar
+	display none
+	background-color #448800
+	padding 4px 10px
+	color #fff
+	border-bottom 1.5px solid #228800
+	cursor pointer
+	&:hover
+		background-color #44aa00
+	&:active
+		background-color #44aa00
+		border-bottom 0px
+		border-top 1px solid #228800
+#salir
+	background-color #cc3333
+	padding 4px 10px
+	color #fff
+	border-bottom 1.5px solid #aa1111
+	cursor pointer
+	&:hover
+		background-color #cc5533
+	&:active
+		background-color #cc5533
+		border-bottom 0px
+		border-top 1px solid #aa1111
+#materias
+	max-height 250px
+	margin-bottom 10px
+	table
+		width 100%
+#comparacion
+	width 45%
+	max-width 49.84%
+	float right
+	height 410px
+	overflow scroll
+	overflow-x hidden
+	margin-bottom 10px
+	border 1px solid black
+	#info-variada
+		margin 10px 10px
+		//width 100%
+		div
+			width 96%
+		.comp-prof
+		.comp-aula
+		.comp-grupo
+			margin-bottom 10px
+			span
+				margin-top 2px
+				margin-right 3px
+				cursor pointer
+				float right
+				padding 2px 6px
+				color #fff
+				background-color #cc0000
+				//border 1px solid black
+				border-radius(100%)
+				&:hover
+					background-color #aa0000
+				&:active
+					background-color #aa0000
+		.comp-prof
+			border 1px solid black
+			border-radius(12px)
+			p
+			h3
+				padding 0px 5px
+		.comp-aula
+		.comp-grupo
+			border-top 1px solid black
+			border-bottom 1px solid black
+			table
+				width 100%
+				text-align center
+			
+#agregar
+	padding 5px 10px
+.addButton
+	margin-left 4px
+	margin-right 6px
+	padding-left 5px
+	padding-right 5px
+	cursor pointer
+	background-color #3399FF
+	color #fff
+	&:hover
+		background-color #0066cc
+	&:active
+		background-color #000
+#prof-seleccionado
+	float left
+	width 45%
+	max-width 49.84%
+	margin-bottom 20px
+	div
+		width 60%
+		padding 5px 10px
+		border 1px solid black
+		border-radius(5px)
+		box-shadow(2px 4px 7px #000)
+#agregar-lugar
+	margin-bottom 10px
+	height 185px
+#horario-actual
+	position absolute
+	text-align center
+	margin-left auto
+	margin-right auto
+	top 680px
+	width 89%
+	table
+		width 100%
+.active-container
+	box-shadow(2px 4px 5px rgba(0,0,0,0.7))
+.edited
+	box-shadow(0px 0px 10px #3399ff)
+	border-radius(5px)
+.edited .chosen-single
+	border 1px solid #3399ff
+	border-radius(5px)
+.aulaHoras
+	display none
